@@ -29,18 +29,19 @@
             top: 0;
             z-index: 1000;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
-        header h1 {
-            font-size: 2.5em;
-            text-align: center;
+        header .brand {
+            font-size: 1.8em;
+            font-weight: bold;
             color: #374151;
-            animation: fadeInDown 1.5s ease-in-out;
         }
 
         nav {
             text-align: center;
-            margin-top: 10px;
         }
 
         nav a {
@@ -285,7 +286,7 @@
 </head>
 <body>
     <header>
-        <h1>NextGen Software Solutions</h1>
+        <div class="brand">NextGen</div>
         <nav>
             <a href="#hero">Home</a>
             <a href="#services">Services</a>
@@ -327,17 +328,17 @@
         <ul>
             <li><i class="fa fa-phone"></i> +1-800-555-5555</li>
             <li><i class="fa fa-envelope"></i> contact@nextgen.com</li>
-            <li><i class="fa fa-map-marker"></i> 123 Innovation Blvd, Suite 400, TechCity</li>
+            <li><i class="fa fa-map-marker"></i> 123 NextGen Blvd, Tech City, TX</li>
         </ul>
     </section>
 
     <section id="privacy">
         <h2>Privacy Policy</h2>
-        <p>Your privacy is of utmost importance to us. We comply with GDPR and industry standards to ensure your data is protected.</p>
+        <p>Your privacy is important to us. We respect your data and protect it according to the latest regulations.</p>
     </section>
 
     <footer>
-        &copy; 2024 NextGen Software Solutions. <a href="#privacy">Privacy Policy</a>
+        <p>&copy; 2024 NextGen Software Solutions. All Rights Reserved. | <a href="#privacy">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
